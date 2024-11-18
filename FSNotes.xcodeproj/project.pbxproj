@@ -4212,7 +4212,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E73B6900CD2E14B0D5E51599 /* Pods-FSNotes iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "FSNotes iOS/FSNotes iOS.entitlements";
@@ -4248,7 +4248,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4796D64E77383E6A5A3F900B /* Pods-FSNotes iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CFNETWORK_DIAGNOSTICS = 1;
@@ -4411,7 +4411,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 365935BA74CEA7B5CAFAB536 /* Pods-FSNotes.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = FSNotes/FSNotes.entitlements;
@@ -4447,7 +4447,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9EA62EEDB6BE9BF8727E66E0 /* Pods-FSNotes.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = FSNotes/FSNotes.entitlements;
